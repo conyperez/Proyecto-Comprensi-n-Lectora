@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Analizador">
+      <UniqueIdentifier>{73faef0b-cb38-47a7-b93f-8c3d0296fc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Analizador">
+      <UniqueIdentifier>{e8b5c11a-dfb9-41c7-a4d5-c854a0bd1bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\MotorDeInferencia">
+      <UniqueIdentifier>{9d56b395-98d9-415e-b33a-17082ac7d7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MotorDeInferencia">
+      <UniqueIdentifier>{da071388-6e5d-4513-9aa4-3d491bce8b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Archivo">
+      <UniqueIdentifier>{f4281129-81f4-4916-8c2a-d9f84a3af839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Archivo">
+      <UniqueIdentifier>{e8ca3f92-d6f8-4e19-9700-3300e4342d08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Argumento.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="Conector.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="Hecho.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Regla.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDeConocimiento.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDeHechos.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorDeInferencia.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="LeerArchivo.h">
+      <Filter>Archivos de encabezado\Archivo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Proyecto MI.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Argumento.cpp">
+      <Filter>Archivos de código fuente\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="Conector.cpp">
+      <Filter>Archivos de código fuente\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="Hecho.cpp">
+      <Filter>Archivos de código fuente\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Regla.cpp">
+      <Filter>Archivos de código fuente\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDeConocimiento.cpp">
+      <Filter>Archivos de código fuente\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDeHechos.cpp">
+      <Filter>Archivos de código fuente\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorDeInferencia.cpp">
+      <Filter>Archivos de código fuente\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="LeerArchivo.cpp">
+      <Filter>Archivos de código fuente\Archivo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
